@@ -7,3 +7,6 @@
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
     Test = "test"
+[[edge_functions]]
+    path = "/*"
+    function = "headers"
